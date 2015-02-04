@@ -1,8 +1,8 @@
 #include <format.h>
-#include <stdio.h>
+#include <iostream>
 
 int main()
 {
-    puts(fmt::format("{0}, {1}", "Hello", "World").c_str());
+    std::cout << fmt::format("{0}, {1}", "Hello", "World") << std::endl;
     return 0;
 }
