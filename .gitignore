@@ -3,6 +3,7 @@ CMakeScripts/
 CMakeCache.txt
 Makefile
 cmake_install.cmake
+config.h
 *.exe
 *.build/
 *.xcodeproj/
